@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sunless</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                background: #1c1e1d;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                height: 100vh;
+            }
+
+            #canvas:focus {
+                outline: none;
+            }
+        </style>
+    </head>
+    <body>
+
+        <canvas id="canvas"></canvas>
+
+        <script src="index.js"></script>
+        <script>
+            var engine = new Engine({"args":[],"canvasResizePolicy":1,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":2844096,"index.wasm":17862218},"focusCanvas":true,"gdnativeLibs":[]});
+            engine.startGame();
+        </script>
+    </body>
+</html>
